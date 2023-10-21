@@ -11,7 +11,7 @@ import { store } from './store';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/redux-countries'>  {/* for github pages routing */}
         <App />
       </BrowserRouter>
     </Provider>

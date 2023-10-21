@@ -91,7 +91,6 @@ const Link = styled.a`
 `;
 
 export const Info = (props) => {
-  console.log(props);
   const {
     population,
     region,
